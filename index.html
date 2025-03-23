@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+  <div class="form-container">
+    <h2>
+      محاسبه کننده ویژگی های
+      <br/>
+       مکعب مستطیل
+    </h2>
+    <input type="text" id="x" placeholder="طول"/>
+    <input type="text" id="y" placeholder="عرض"/>
+    <input type="text" id="z" placeholder="ارتفاع"/>
+    
+    <formula evaluator="x * y * z" placeholder="حجم شکل"></formula>
+    <formula evaluator="(x * y + x * z + y * z) * 2" placeholder="مساحت جانبی شکل"></formula>
+    <formula evaluator="(x + y + z) * 4" placeholder="محیط جانبی شکل"></formula>
+  </div>
+</body>
+</html>
